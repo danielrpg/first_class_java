@@ -8,7 +8,7 @@ interface Shape {
     String getShape();
 }
 
-class Circle implements Drawable, Shape{
+class Circle implements Drawable, Shape {
     public void draw() {
         System.out.println("Circle!");
     }
@@ -17,6 +17,7 @@ class Circle implements Drawable, Shape{
         return "Circle !!";
     }
 }
+
 public class InterfaceChecker {
     public static void main(String[] args) {
         Drawable circle = new Circle();
