@@ -22,6 +22,11 @@ public class InterfaceChecker {
     public static void main(String[] args) {
         Drawable circle = new Circle();
         circle.draw();
+        Shape circle_dos = new Circle();
+        circle_dos.getShape();
+//        Circle circle_tres = new Circle();
+//        circle_tres.getShape();
+//        circle_tres.draw();
 
     }
 }
